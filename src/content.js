@@ -1,0 +1,51 @@
+// const content = document.querySelector('#content');
+// const header = document.createElement('header');
+// header.setAttribute('id', 'header');
+// header.className = 'has-text-centered'
+// const title = document.createElement('h1');
+// title.textContent = 'Restaurant';
+// title.className = 'title is-1 primary'
+// header.appendChild(title);
+// content.appendChild(header);
+
+const addBtn = (id, text) => {
+  const btn = document.createElement('button')
+  btn.setAttribute('id' , id)
+  btn.textContent = text
+  btn.className = 'primary'
+  return btn
+}
+
+const addTabsCont = () => {
+  const cont = document.createElement('div')
+  const homeBtn = addBtn('home', 'HOME')
+  const contactBtn = addBtn('contact', 'CONTACT')
+  cont.appendChild(homeBtn)
+  cont.appendChild(contactBtn)
+  return cont
+}
+
+const addNav = () => {
+  const nav = document.createElement('nav')
+  nav.setAttribute('id', 'nav')
+  nav.className = 'navbar tabs is-centered'
+  const contTabs = addTabsCont()
+  nav.appendChild(contTabs)
+  return nav
+}
+
+const layout = () => {
+  const content = document.querySelector('#content');
+  const header = document.createElement('header');
+  header.setAttribute('id', 'header');
+  header.className = 'has-text-centered'
+  const title = document.createElement('h1');
+  title.textContent = 'Restaurant';
+  title.className = 'title is-1 primary'
+  const navbar = addNav();
+  header.appendChild(title);
+  content.appendChild(header);
+  content.appendChild(navbar);
+}
+
+export default layout;
