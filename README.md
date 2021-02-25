@@ -8,7 +8,7 @@
 
 - Menu
 
- ![screenshot](./assets/img/Screenshot_menu.png)
+ ![screenshot](./assets/images/Screenshot_menu.png)
 
 ## Built With
 
@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
      npx eslint .
 ```
 
-## Authors
+## Author
 ​
 👤 **Julian Ramos**
 ​

@@ -17,6 +17,6 @@ const init = () => {
   layout();
   loadHome();
   addBtnEvents();
-}
+};
 
 init();
