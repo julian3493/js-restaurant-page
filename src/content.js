@@ -33,7 +33,7 @@ const layout = () => {
   header.className = 'has-text-centered';
   const title = document.createElement('h1');
   title.textContent = 'Restaurant';
-  title.className = 'title is-1 mb-6 mt-6';
+  title.className = 'title is-1 mb-6 mt-6 main-title';
   const navbar = addNav();
   header.appendChild(title);
   content.appendChild(header);
