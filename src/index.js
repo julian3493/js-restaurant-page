@@ -15,6 +15,7 @@ const addBtnEvents = () => {
 
 const init = () => {
   layout();
+  loadHome();
   addBtnEvents();
 }
 
