@@ -5,7 +5,7 @@ const loadContact = () => {
   header.textContent = 'Contact title';
 
   const removed = content.lastChild;
-  if (removed.className == 'delete-this')
+  if (removed.className == 'section')
     removed.remove(); 
 
   content.appendChild(header);
