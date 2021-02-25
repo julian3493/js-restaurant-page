@@ -29,9 +29,9 @@ const loadHome = () => {
   const sec = section();
   const removed = content.lastChild;
 
-  if (removed.className == 'delete-this')
+  if (removed.classList[0] == 'section')
     removed.remove();
-   
+  
   content.appendChild(sec);
 };
 
