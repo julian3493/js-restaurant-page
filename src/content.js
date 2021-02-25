@@ -9,8 +9,10 @@ const addBtn = (id, text) => {
 const addTabsCont = () => {
   const cont = document.createElement('div')
   const homeBtn = addBtn('home', 'HOME')
+  const menuBtn = addBtn('menu', 'MENU')
   const contactBtn = addBtn('contact', 'CONTACT')
   cont.appendChild(homeBtn)
+  cont.appendChild(menuBtn)
   cont.appendChild(contactBtn)
   return cont
 }

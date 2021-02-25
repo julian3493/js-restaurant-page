@@ -26,13 +26,13 @@ const section = () => {
 
 const loadHome = () => {
   const content = document.getElementById('content');
-  const sec = section();
+  const sect = section();
   const removed = content.lastChild;
 
   if (removed.classList[0] == 'section')
     removed.remove();
   
-  content.appendChild(sec);
+  content.appendChild(sect);
 };
 
 export default loadHome;
