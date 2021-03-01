@@ -1,0 +1,25 @@
+{
+  "name": "js-restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julian3493/js-restaurant-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julian3493/js-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/julian3493/js-restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.24.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
